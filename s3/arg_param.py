@@ -5,10 +5,10 @@ def yearBorn(age=0):
         birthdayOccurrence = input()
         if birthdayOccurrence == 'Y':
             return(2021 - age)
-            break
+            
         elif birthdayOccurrence == 'N':
             return(2020 - age)
-            break
+            
         else:
             print('Invalid reponse. Please try again.')
             continue
